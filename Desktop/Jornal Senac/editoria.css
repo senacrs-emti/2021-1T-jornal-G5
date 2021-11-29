@@ -1,0 +1,181 @@
+header{
+    background-color:#43F8BE;
+ }
+ div h1{
+    text-align: center;
+    font-size:30px;
+ }
+ h2{
+    font-size: 15px;;
+ }
+ div h2{
+    text-align: center;
+    font-size:20px; 
+ }
+  h3{
+ font-size:15px;
+ margin-left:60px;
+ 
+ }
+ h4{
+    font-size:16px;
+    margin-left:60px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+ }
+ 
+ 
+ .navbar-toggler {
+    border:none;
+ }
+ img.w-75{
+ margin-left:60px;
+ 
+ }
+ img#btnBusca{
+    width:30px;
+    margin-left: -40px;
+    
+ }
+ 
+ main{
+    width: 100%;
+    height: 533px;
+    display: block;
+}
+main article{
+    width: 90%;
+    height: 102%;
+    display: block;
+    float: left;
+}
+main article section{
+    float: left;
+    width: 98%;
+    margin-left: 5%;
+}
+main article section div{
+    padding: 30px;
+}
+main article section h2{
+    margin-left: 2%;
+    float: left;
+    width: 75%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    line-height: 25px;
+}
+main article section img{
+    float: left;
+    margin-left: 0px;
+    width: 20%;
+    margin-bottom: -20px;
+}
+main article section p{
+    margin-left: 1%;
+    float: left;
+    width: 75%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+}
+.leia {
+    background-color: #39E64B;
+    color: aliceblue;
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    margin-top: -10px;
+}
+.leia:hover{
+    color: aliceblue;
+    background-color: #62FC32;
+    text-decoration: none;
+}
+.coluna2 {
+    width:80%;
+}
+@media only screen and (max-width: 600px) {
+
+    main{
+        width: 100%;
+        height: 540px;
+        display: block;
+    }
+    
+
+main article{
+    width: 81%;
+    height: 280%;
+    display: block;
+    float: left;
+}
+main article section{
+    float: left;
+    width: 98%;
+    margin: 0%;
+}
+main article section img {
+    margin-left: 1%;
+    width: 40%;
+}
+main article section h2{
+    margin-left: 60px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    line-height: 23px;
+}
+main article section p {
+    margin-left: 5%;
+    float: left;
+    width: 150%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+}
+.leia {
+    background-color: #39E64B;
+    color: aliceblue;
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    margin-top: -10px;
+    margin-right: -60px;
+}
+}
+footer{
+    height: 65px;
+    width: 100%;
+    background-color: #39E64B;
+    margin-top:10%;
+}
+footer img{
+    margin-left: -8%;
+    height: 45px;
+    width: 12%;
+    margin-top: 1%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    
+    footer{
+        float: left;
+        height: 40px;
+        width: 100%;
+        background-color: #39E64B;
+    }
+    footer img{
+        margin-left: -5%;
+        height: 95%;
+        width: 15%;
+        margin-top:-1%;
+    }
+}

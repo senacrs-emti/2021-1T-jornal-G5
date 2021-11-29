@@ -1,0 +1,85 @@
+
+    
+header{
+    background-color:#43F8BE;
+ }
+     
+    
+     
+ div h1{
+    text-align: center;
+    font-size:30px;
+ }
+ h2{
+    font-size: 15px;;
+ }
+ div h2{
+    text-align: center;
+    font-size:20px; 
+ }
+  h3{
+ font-size:15px;
+ margin-left:60px;
+ 
+ }
+ h4{
+    font-size:16px;
+    margin-left:300px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+ }
+ 
+ img.w-75{
+     margin-left:40px;
+ }
+ 
+ .navbar-toggler {
+    border:none;
+ }
+ img{
+   width:500px;
+    margin-left:300px;
+ 
+ }
+ img#btnBusca{
+    width:30px;
+    margin-left: -40px;
+    
+ }
+ footer{
+    height: 65px;
+    width: 100%;
+    background-color: #39E64B;
+ }
+ footer img{
+    margin-left: -8%;
+    height: 45px;
+    width: 12%;
+    margin-top: 1%;
+ }
+ 
+ 
+ @media only screen and (max-width: 600px) {
+    img.w-75{
+        margin-left:2px;
+    }
+    h4{
+     margin-left:60px;
+ }
+    img{
+         width:200px;
+          margin-left:60px;    
+    }
+    footer{
+        float: left;
+        height: 30px;
+        width: 100%;
+        background-color: #39E64B;
+    }
+    footer img{
+        margin-left: -5%;
+        height: 95%;
+        width: 15%;
+    }
+ 
+ }

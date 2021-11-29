@@ -1,0 +1,75 @@
+header{
+    background-color:#43F8BE;
+ }
+     
+    
+     
+ div h1{
+    text-align: center;
+    font-size:40px;
+ }
+ h2{
+    font-size: 15px;;
+ }
+ div h2{
+    text-align: center;
+    font-size:20px; 
+ }
+ p{
+     margin-left:30px;
+ }
+ h3{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size:16px;
+ margin-left:30px;
+ margin-top:20px;
+ }
+ h4{
+    font-size:20px;
+    margin-left:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+   }
+ 
+ 
+ .navbar-toggler {
+    border:none;
+ }
+ img.w-75{
+ margin-left:75px;
+ 
+ }
+ img#btnBusca{
+    width:30px;
+    margin-left: -40px;
+    
+ }
+ footer{
+   height: 65px;
+   width: 100%;
+   background-color: #39E64B;
+}
+footer img{
+   margin-left: -34%;
+   height: 45px;
+   width: 12%;
+   margin-top: 1%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+   
+   footer{
+       float: left;
+       height: 30px;
+       width: 100%;
+       background-color: #39E64B;
+   }
+   footer img{
+       margin-left: -5%;
+       height: 100%;
+       width: 15%;
+   }
+
+}
