@@ -6,7 +6,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Home.css">
    
     <title>home</title>
   </head>
@@ -29,7 +29,10 @@
     <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="editoria.html">Editoria</a>
+    <a class="nav-link" href="editoria.html">Notícia</a>
+    <a class="nav-link" href="entrevistas.html">Entrevistas</a>
+    <a class="nav-link" href="cronicas.html">Crônicas</a>
+    <a class="nav-link" href="artigos.html">Artigos</a>
     </li>
     <li class="nav-item">
     
@@ -51,16 +54,21 @@
         </div>
     
         <div class="col-sm">
-          <img src="logo.jpg" width="200px">
+          <a href="home.html">
+            <img id="logo"
+              src="logo.jpg"
+              width="200"
+              height="80"
+            />
+          </a> 
         
         </div>
         <div class="col-sm col-xl-4">
-          
-            <div id="divBusca">
-              <input type="text" id="txtBusca" placeholder="Buscar..."/>
-              <a href="#"></a>
-              <img src="https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png" id="btnBusca" alt="Buscar"/>
-              
+          <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <img src="https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png" id="btnBusca" alt="Buscar"/>
+            
+            
               
            
           </div>
@@ -94,7 +102,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Machu Picchu</h5>
                     <p class="card-text">Confira as nossas descobertas e estudos de um dos pontos turisticos do mundo que possui mistérios e  origem de Machu Picchu </p>
-                    <a href="Mistérios de Machu Picchu.html" class="btn btn-primary">Visitar</a>
+                    <a href="Mistérios_de_Machu_Picchu.html" class="btn btn-primary">Visitar</a>
                   </div>
                 </div>
               
@@ -105,7 +113,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Entrevista</h5>
                     <p class="card-text">confira a nossa entrevista transcrita com a nossa entrevistada  profª Leticia </p>
-                    <a href="Entrevista profª Leticia.html" class="btn btn-primary">Visitar</a>
+                    <a href="Entrevista_profª_Leticia.html" class="btn btn-primary">Visitar</a>
                   </div>
                 </div>
               </div>
@@ -115,7 +123,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Ser nerd nos dias de hoje</h5>
                     <p class="card-text"> Confira as nossas histórias e prespecitivas sobre o mundo lendo nossas cronicas</p>
-                    <a href="Ser nerd nos dias de hoje.html" class="btn btn-primary">Visitar</a>
+                    <a href="Ser_nerd_nos_dias_de_hoje.html" class="btn btn-primary">Visitar</a>
                   </div>
                 </div>
                 </div>
@@ -130,7 +138,7 @@
               <h5 class="card-title">viagem Maluca</h5>
               <p class="card-text">Eu lembro que tinha uns 10 anos e estava num avião voltando para porto alegre no fim das
                 minhas férias de verão, e eu desde pequeno não sei o que eu pensava, mas eu tinha um medo.</p>
-              <a href="Viagem Maluca.html" class="btn btn-primary">Visitar</a>
+              <a href="Viagem_Maluca.html" class="btn btn-primary">Visitar</a>
             </div>
             </div>
             
@@ -154,12 +162,11 @@
 
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://img.freepik.com/vetores-gratis/composicao-de-servico-de-viagens-aereas-de-ferias-tropicais_98292-6990.jpg?size=338&ext=jpg" alt="Imagem de capa do card">
+            <img class="card-img-top" src="solidão.jpg">
             <div class="card-body">
-              <h5 class="card-title">viagem Maluca</h5>
-              <p class="card-text">Eu lembro que tinha uns 10 anos e estava num avião voltando para porto alegre no fim das
-                minhas férias de verão, e eu desde pequeno não sei o que eu pensava, mas eu tinha um medo.</p>
-              <a href="Viagem Maluca.html" class="btn btn-primary">Visitar</a>
+              <h5 class="card-title">Solidão</h5>
+              <p class="card-text">Interessante pois precisei de uma sugestão de um amigo para escolher esse tema. Solidão. Uns a evitam, outros a desejam. Mesmo quem a evita nunca vai escapar, pois ela nos persegue. Mesmo aqueles que tem muitos amigos na verdade a maioria são só conhecidos, amigos reais temos pouco.</p>
+              <a href="solidão.html" class="btn btn-primary">Visitar</a>
             </div>
             </div>
           </div>  
@@ -174,7 +181,7 @@
             <div class="card-body">
               <h5 class="card-title">Feira Cultural senac</h5>
               <p class="card-text">No dia seis de novembro (sábado) ocorreu a feira cultural, um projeto que foi feito em parceria com os professores de Ciências humanas, professor Bruno e a professora Barbara.</p>
-              <a href="Feira cultural Senac.html" class="btn btn-primary">Visitar</a>
+              <a href="Feira_cultural_senac.html" class="btn btn-primary">Visitar</a>
             </div>
             </div>
             
@@ -182,33 +189,45 @@
 
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR14pCVe91veiLrnIRSiEVe7pjFidDTQO-Xwg&usqp=CAU" alt="Imagem de capa do card">
+            <img class="card-img-top" src="https://t5z6q4c2.rocketcdn.me/wp-content/uploads/2019/07/politica-conceito-historia-aplicacao-pratica-e-variacao-de-significados-2.jpg" alt="Imagem de capa do card">
             <div class="card-body">
               <h5 class="card-title">Politica nos dias de hoje</h5>
-              <p class="card-text"> A política funciona para que o povo possa votar naquele candidato que possui as mesmas ideias e argumentos dos seus eleitores. Só que há um detalhe, a política de hoje em dia favorece as mentiras por parte das promessas que fazem mais não cumprem e das ideologias que chamam de opinião, ou seja, de esquerda, direita ou centrão. </p>
-              <a href="politica de hoje.html" class="btn btn-primary">Visitar</a>
+              <p class="card-text"> A política funciona para que o povo possa votar naquele candidato que possui as mesmas ideias e argumentos dos seus eleitores. Só que há um detalhe, a política de hoje em dia favorece as mentiras por parte das promessas que fazem mais não cumprem e das ideologias que chamam de opinião, ou seja, de esquerda. </p>
+              <a href="politica_de_hoje.html" class="btn btn-primary">Visitar</a>
             </div>
             </div>
             
           </div>
           
-        
-
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://img.freepik.com/vetores-gratis/composicao-de-servico-de-viagens-aereas-de-ferias-tropicais_98292-6990.jpg?size=338&ext=jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">viagem Maluca</h5>
-              <p class="card-text">Eu lembro que tinha uns 10 anos e estava num avião voltando para porto alegre no fim das
-                minhas férias de verão, e eu desde pequeno não sei o que eu pensava, mas eu tinha um medo.</p>
-              <a href="Viagem Maluca.html" class="btn btn-primary">Visitar</a>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://conteudo.imguol.com.br/c/entretenimento/5a/2021/01/18/as-drogas-devem-ser-legalizadas-1610998206370_v2_615x300.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Legalização das drogas</h5>
+                <p class="card-text"> Bom, se virmos por cima, de fato veremos que a droga é muito prejudicial para saúde além de trazer várias consequências para nosso organismo, mas se pensarmos melhor veremos que </p>
+                <a href="Legalização_das_drogas.html" class="btn btn-primary">Visitar</a>
+              </div>
+              </div>
+              
             </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.seudinheiro.com/uploads/2021/06/Nota-100-Reais-Rasgada-Infla%C3%A7%C3%A3o-628x353.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Inflação no Brasil</h5>
+                  <p class="card-text">  Eu penso que muitas pessoas aceitam ou até mesmo desacreditam que o Brasil possa melhorar por motivos de falta de oportunidade, certamente você já deve ter ouvido notícias que conforme os anos passam tudo aquilo que o brasil precisa, acaba perdendo o pouco que tem e o que deveria manter para ter acaba perdendo </p>
+                  <a href="inflação_no_brasil.html" class="btn btn-primary">Visitar</a>
+                </div>
+                </div>
+                
+              </div>
             </div>
           </div>  
           </div>
           </div>
         
         
+         
           <footer>
             <div class="container">
         
@@ -217,7 +236,7 @@
                     <img src="logo.jpg" width="300px">
         
                   </div>
-                     
+                    
                     </div>
         </footer>
         

@@ -22,7 +22,10 @@ header{
     margin-top:10px;;
  
  }
- 
+ #logo{
+   width:70%;
+   margin-left:-1%; 
+ }
  
  
  .navbar-toggler {
@@ -52,7 +55,12 @@ footer img{
 
 @media only screen and (max-width: 600px) {
 
+   #logo{
+
+      width:70%;
+      margin-left:-1%; 
    
+ }
    footer{
        float: left;
        height: 30px;

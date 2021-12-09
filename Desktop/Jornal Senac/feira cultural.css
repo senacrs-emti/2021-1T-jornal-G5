@@ -29,8 +29,10 @@ header{
  
  }
  
- img.w-75{
-     margin-left:40px;
+ 
+ #logo{
+   width:70%;
+   margin-left:10%; 
  }
  
  .navbar-toggler {
@@ -39,7 +41,7 @@ header{
  img{
    width:500px;
     margin-left:300px;
- 
+    
  }
  img#btnBusca{
     width:30px;
@@ -60,9 +62,7 @@ header{
  
  
  @media only screen and (max-width: 600px) {
-    img.w-75{
-        margin-left:2px;
-    }
+   
     h4{
      margin-left:60px;
  }
@@ -70,16 +70,23 @@ header{
          width:200px;
           margin-left:60px;    
     }
-    footer{
-        float: left;
-        height: 30px;
-        width: 100%;
-        background-color: #39E64B;
-    }
-    footer img{
-        margin-left: -5%;
-        height: 95%;
-        width: 15%;
-    }
- 
+    #logo{
+
+      width:70%;
+      margin-left:-1%; 
+   
  }
+   
+   footer{
+       float: left;
+       height: 30px;
+       width: 120%;
+       background-color: #39E64B;
+   }
+   footer img{
+       margin-left: -5%;
+       height: 85%;
+       width: 15%;
+   }
+
+}

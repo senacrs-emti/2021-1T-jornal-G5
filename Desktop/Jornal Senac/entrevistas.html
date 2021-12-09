@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="entrevistas.css">
+   
+    <title>Editoria</title>
+  </head>
+ 
+ <body>
+
+  <header>
+
+    <div class="container">
+      <div class="row">
+    
+        <div class="col-sm">
+          
+    <nav class="navbar navbar-light ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button> <div class="navbar-collapse collapse" id="navbarsExample01" >
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item ">
+    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="editoria.html">Notícia</a>
+    <a class="nav-link" href="entrevistas.html">Entrevistas</a>
+    <a class="nav-link" href="cronicas.html">Crônicas</a>
+    <a class="nav-link" href="artigos.html">Artigos</a>
+    </li>
+    <li class="nav-item">
+    
+    <li class="nav-item dropdown">
+    
+    <div class="dropdown-menu" aria-labelledby="dropdown01">
+    <a class="dropdown-item" href="home.html">Action</a>
+    <a class="dropdown-item" href="home.html">Another action</a>
+    <a class="dropdown-item" href="home.html">Something else here</a>
+    </div>
+    </li>
+    </ul>
+    
+    </div>
+    </nav>
+    
+    
+    
+        </div>
+    
+        <div class="col-sm">
+          <a href="home.html">
+            <img id="logo"
+              src="logo.jpg"
+              width="200"
+              height="80"
+               margin-left="100"
+              />
+          </a> 
+        
+        </div>
+        <div class="col-sm col-xl-4">
+          <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <img src="https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png" id="btnBusca" alt="Buscar"/>
+              
+           
+          </div>
+        </header>
+        <div class="col-sm-12 col-xl-12">
+
+        <main>
+            <article>
+                <section>
+                    <div>
+                        <img src="data:image/jpeg;base64,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">
+                        <h2>Entrevista da profª Letícia</h2>
+                        <p>A profª Leticia é professora de inglês e literatura do ensino médio do Senac e também a nossa entrevistada, as perguntas tem o intuito de serem focadas na parte profissional e social.Também a entrevista foi feita antes, quando dava aula de inglês para a turma.</p>
+                        <a href="Entrevista_profª_Leticia.html" class="leia">Leia Mais</a>
+                    </div>
+                </section>
+          
+            </article>
+            
+        </main>
+
+    </div>
+        
+        
+        
+        <footer>
+            <div class="container">
+        
+                  <div class="col-sm">
+        
+                    <img src="logo.jpg" width="300px">
+        
+                 
+                     </div>
+                    </div>
+        </footer>
+        
+        
+    
+      <script src="script.js"></script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    </body>
+  </html>

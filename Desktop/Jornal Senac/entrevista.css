@@ -30,7 +30,10 @@ header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     
    }
- 
+   #logo{
+      width:70%;
+      margin-left:10%; 
+    }
  
  .navbar-toggler {
     border:none;
@@ -50,7 +53,7 @@ header{
    background-color: #39E64B;
 }
 footer img{
-   margin-left: -34%;
+   margin-left: -8%;
    height: 45px;
    width: 12%;
    margin-top: 1%;
@@ -58,7 +61,12 @@ footer img{
 
 
 @media only screen and (max-width: 600px) {
+   #logo{
 
+      width:70%;
+      margin-left:-1%; 
+   
+ }
    
    footer{
        float: left;

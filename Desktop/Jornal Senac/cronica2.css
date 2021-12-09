@@ -23,7 +23,10 @@ header{
  margin-top:10px;
   }
  
- 
+  #logo{
+   width:70%;
+   margin-left:10%; 
+ }
  
  .navbar-toggler {
     border:none;
@@ -43,15 +46,19 @@ header{
    background-color: #39E64B;
 }
 footer img{
-   margin-left: -8%;
-   height: 45px;
+   margin-left: -10%;
    width: 12%;
    margin-top: 1%;
 }
 
 
 @media only screen and (max-width: 600px) {
+   #logo{
 
+      width:70%;
+      margin-left:-1%; 
+   
+ }
    
    footer{
        float: left;
