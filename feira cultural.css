@@ -24,7 +24,7 @@ header{
  }
  h4{
     font-size:16px;
-    margin-left:300px; 
+    margin-left:20%; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
  }
@@ -39,8 +39,8 @@ header{
     border:none;
  }
  img{
-   width:500px;
-    margin-left:300px;
+   width:45%;
+    margin-left:20%;
     
  }
  img#btnBusca{
