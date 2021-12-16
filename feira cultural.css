@@ -3,7 +3,10 @@
 header{
     background-color:#43F8BE;
  }
-     
+ button, input {
+   margin-top: 5%;
+   overflow: visible;
+}
     
      
  div h1{
@@ -53,6 +56,11 @@ header{
     width: 100%;
     background-color: #39E64B;
  }
+ footer h4{
+   margin-left: 65%;
+   float: left;
+   margin-top: -2%;
+}
  footer img{
     margin-left: -8%;
     height: 45px;
